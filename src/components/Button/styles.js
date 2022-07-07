@@ -11,7 +11,8 @@ export const ButtonContainer = styled.button`
     width: 50px;
     height: 50px;
     color: white;
-    background-color: red;
-    border-radius: 10px;
+    background-color: #3e3e3e;
+    border-radius: 25px;
+    border: none;
   }
 `

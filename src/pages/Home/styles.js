@@ -91,7 +91,21 @@ export const Number = styled.span`
 export const ButtonContainer = styled.div`
   align-self: flex-end;
   padding: 5px;
+  background-color: #1e1e1e;
   transition: all .5s;
+
+  @media(max-width: 800px) {
+    width: 56px;
+    padding: 5px 5px 5px 60px;
+    height: 4rem;
+    transform: translate(-10px, 15px);
+  }
+
+  @media(max-width: 500px) {
+    width: initial;
+    height: initial;
+    transform: translate(0px, 0px);
+  }
 `
 
 export const AnimationTop = styled.div`
